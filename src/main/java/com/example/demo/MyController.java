@@ -11,4 +11,9 @@ public class MyController {
 		return "God is good";
 	}
 
+	@GetMapping("/hello1")
+	public String getHello1() {
+		return "Goddess is good";
+	}
+	
 }
